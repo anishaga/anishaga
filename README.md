@@ -1,9 +1,11 @@
-<p align="center">
- <img align='center' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
-</p>
+
 
 <h1 align="center">Hi 👋, I'm Anish Agawal</h1>
 <h3 align="center">A Passionate Developer from India</h3>
+
+<p align="center">
+ <img align='center' src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e472kg2i2pt9d0ghyq67764ir4ihabr9n3mcbd8pimk&rid=giphy.gif&ct=g" width="500">
+</p>
 
 <img src="https://komarev.com/ghpvc/?username=anishaga" alt="anishaga" />
 
@@ -22,5 +24,6 @@
 <p align="center">
 <a href="https://www.linkedin.com/in/anishaga/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin"></a>
 <a href="mailto:anishaga2001@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-anishaga2001@gmail.com-blue?style=flat&logo=gmail"></a>
+<a href="https://telegram.me/anishaga" target="_blank"><img alt="Telegram" src="https://img.shields.io/badge/-Telegram-blue?style=flat&logo=telegram"></a>
 </p>
 
