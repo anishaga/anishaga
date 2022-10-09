@@ -11,7 +11,9 @@
 
 <div>
  <pre>
-:- I’m currently a 2023 undergrad at TIET, Patiala.
+:- I’m a 2023 undergrad at Thapar Institute Of Engineering, Patiala.
+:- I love problem solving be it DSA problems or real world problems
+:- I've made a few projects based on Machine Learning and Deep Learning
 :- I’m currently learning web development.
  </pre>
 </div>
