@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Anish Agarwal</h1>
-<h3 align="center">Software Developer at ION Trading</h3>
+<h3 align="center">Software Engineer at ION Trading</h3>
 
 <p align="center">
   <img align='center' src="https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e472kg2i2pt9d0ghyq67764ir4ihabr9n3mcbd8pimk&rid=giphy.gif&ct=g" width="500">
@@ -9,7 +9,7 @@
 
 <div>
   <pre>
-  🏢 I'm a software developer with 9 months of experience at ION Trading.
+  🏢 I'm a software engineer with 2+ YOE at ION Trading.
   💼 In my role, I've been involved in developing low-latency, multithreaded back-office trading solutions.
   🚀 I'm passionate about leveraging technology to optimize manual effort in trading activities.
   📈 Alongside my work, I've gained experience in financial markets.
