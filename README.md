@@ -34,5 +34,3 @@
     <img alt="Telegram" src="https://img.shields.io/badge/-Telegram-blue?style=flat&logo=telegram">
   </a>
 </p>
-
-Feel free to tailor this profile to your specific experiences and technologies you've worked with at the trading firm. This GitHub `README.md` provides a snapshot of your professional background and interests as a software developer in the trading industry.
