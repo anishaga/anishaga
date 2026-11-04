@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-labelledby="t d">
+<title id="t">Problems I like working on</title>
+<desc id="d">Five tiles: where the time goes, memory and GC, concurrency, data pipelines, and production incidents.</desc>
+<defs><pattern id="gr" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1c2c38" stroke-width="1"/></pattern></defs>
+<style>
+.h{font:700 15.5px 'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif;fill:#e9eef2}
+.d{font:400 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8aa0b0}
+.c{font:400 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8aa0b0}
+.tile{animation:up .8s cubic-bezier(.2,.8,.2,1) backwards}
+.pl{stroke-dasharray:90;animation:beat 2.4s ease-in-out infinite}
+@keyframes up{from{opacity:0;transform:translateY(14px)}}
+@keyframes beat{0%{stroke-dashoffset:90}60%,100%{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="1200" height="240" rx="14" fill="#0f1c26"/><rect width="1200" height="240" rx="14" fill="url(#gr)" opacity=".8"/>
+<rect x=".75" y=".75" width="1198.5" height="238.5" rx="13.5" fill="none" stroke="#26394a" stroke-width="1.5"/>
+<circle cx="26" cy="19" r="5.5" fill="#f0603a"/><circle cx="46" cy="19" r="5.5" fill="#ffb347"/><circle cx="66" cy="19" r="5.5" fill="#ffd66b"/>
+<text class="c" x="88" y="23">anish@profiler ~ problems --i-like</text>
+<g class="tile" style="animation-delay:0.15s"><rect x="40" y="64" width="208" height="150" rx="8" fill="#ffffff" fill-opacity=".04" stroke="#26394a"/><rect x="40" y="64" width="208" height="4" rx="2" fill="#f0603a"/><g transform="translate(60,84)"><rect x="0" y="28" width="56" height="10" rx="2" fill="#f0603a"/><rect x="0" y="15" width="38" height="10" rx="2" fill="#ffb347"/><rect x="0" y="2" width="20" height="10" rx="2" fill="#ffd66b"/></g><text class="h" x="60" y="152">Where the time goes</text><text class="d" x="60" y="174">JFR, JProfiler,</text><text class="d" x="60" y="192">flame graphs</text></g>
+<g class="tile" style="animation-delay:0.27s"><rect x="268" y="64" width="208" height="150" rx="8" fill="#ffffff" fill-opacity=".04" stroke="#26394a"/><rect x="268" y="64" width="208" height="4" rx="2" fill="#ffd66b"/><g transform="translate(288,84)"><rect x="0" y="2" width="10" height="38" rx="2" fill="#ffd66b"/><rect x="15" y="12" width="10" height="28" rx="2" fill="#ffd66b"/><rect x="30" y="22" width="10" height="18" rx="2" fill="#ffd66b"/><rect x="45" y="31" width="10" height="9" rx="2" fill="#ffd66b"/></g><text class="h" x="288" y="152">Memory and GC</text><text class="d" x="288" y="174">Heap dumps, histograms,</text><text class="d" x="288" y="192">GC tuning</text></g>
+<g class="tile" style="animation-delay:0.39s"><rect x="496" y="64" width="208" height="150" rx="8" fill="#ffffff" fill-opacity=".04" stroke="#26394a"/><rect x="496" y="64" width="208" height="4" rx="2" fill="#ffb347"/><g transform="translate(516,84)"><line x1="0" y1="6" x2="56" y2="6" stroke="#ffb347" stroke-width="2" opacity=".55"/><circle cx="40" cy="6" r="4.5" fill="#ffb347"/><line x1="0" y1="20" x2="56" y2="20" stroke="#ffb347" stroke-width="2" opacity=".55"/><circle cx="14" cy="20" r="4.5" fill="#ffb347"/><line x1="0" y1="34" x2="56" y2="34" stroke="#ffb347" stroke-width="2" opacity=".55"/><circle cx="28" cy="34" r="4.5" fill="#ffb347"/></g><text class="h" x="516" y="152">Concurrency</text><text class="d" x="516" y="174">Locks, deadlocks,</text><text class="d" x="516" y="192">hot keys</text></g>
+<g class="tile" style="animation-delay:0.51s"><rect x="724" y="64" width="208" height="150" rx="8" fill="#ffffff" fill-opacity=".04" stroke="#26394a"/><rect x="724" y="64" width="208" height="4" rx="2" fill="#ff8a4c"/><g transform="translate(744,84)"><path d="M6 20 L28 8 L50 28 M28 8 L28 34" stroke="#ff8a4c" stroke-width="2" fill="none" opacity=".6"/><circle cx="6" cy="20" r="6" fill="#ff8a4c"/><circle cx="28" cy="8" r="6" fill="#ff8a4c"/><circle cx="50" cy="28" r="6" fill="#ff8a4c"/><circle cx="28" cy="34" r="6" fill="#ff8a4c"/></g><text class="h" x="744" y="152">Data pipelines</text><text class="d" x="744" y="174">CDC, Kafka,</text><text class="d" x="744" y="192">ClickHouse</text></g>
+<g class="tile" style="animation-delay:0.63s"><rect x="952" y="64" width="208" height="150" rx="8" fill="#ffffff" fill-opacity=".04" stroke="#26394a"/><rect x="952" y="64" width="208" height="4" rx="2" fill="#f0603a"/><g transform="translate(972,84)"><polyline class="pl" points="0,22 12,22 18,6 26,38 34,14 40,22 56,22" fill="none" stroke="#f0603a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g><text class="h" x="972" y="152">Production incidents</text><text class="d" x="972" y="174">P1s, root causes,</text><text class="d" x="972" y="192">and the fix</text></g>
+</svg>
